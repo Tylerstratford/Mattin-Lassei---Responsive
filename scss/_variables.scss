@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap');
 //Fonts
 $font-primary: 'Poppins', sans-serif;
+//
 $font-bread: 'Roboto', sans-serif;
+//Regulare = 400
+//Medium = 500
+
 
 //Colors
 $purple: #F23779;
@@ -12,4 +16,16 @@ $font-dark:#252525;
 $font-light:#57647C;
 
 
+
 //Breakpoints
+$breakpoint-sm: 375px; //mobile
+$breakpoint-sm-max-width: 480px;
+$breakpoint-md: 768px; //Tablet
+$breakpoint-md-max-width: 720px;
+$breakpoint-lg: 992px;
+$breakpoint-lg-max-width: 960px;
+$breakpoint-xl: 1200px;
+$breakpoint-xl-max-width: 1170px;
+$breakpoint-xxl: 1400px;
+$breakpoint-xxl-max-width: 1320px;
+@import "./breakpoints";

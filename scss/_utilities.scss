@@ -1,21 +1,39 @@
+//Display
 .d-flex { display: flex; }
 .d-grid { display: grid;}
 .d-block { display: block; }
 .d-none { display: none; }
 
+//Justifty
+.justify-content-start { justify-content: start; }
+.justify-content-end { justify-content: end; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
 
+//Align
+.align-items-start { align-items: flex-start; }
+.align-items-end { align-items: flex-end; }
+.align-items-center { align-items: center; }
+
+//Container
 .container {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    @include sm { max-width: $breakpoint-sm-max-width; }
+    @include md { max-width: $breakpoint-md-max-width; }
+    @include lg { max-width: $breakpoint-lg-max-width; }
+    @include xl { max-width: $breakpoint-xl-max-width; }
+    @include xxl { max-width: $breakpoint-xxl-max-width; }
 }
 
 // Button
 .button-standard {
     border-style: none;
-    background: linear-gradient(135deg, rgba(242,55,121,1) 28%, rgba(255,104,3,1) 78%);
+    background: linear-gradient(120deg, rgba(242,55,121,1) 10%, rgba(255,104,3,1) 90%);
     height: 50px;
     width: auto;
     font-family: $font-bread;
@@ -24,7 +42,9 @@
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 4px;
-    padding: 1rem 1rem;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
 }
 
 //Border-wirefram

@@ -1,3 +1,68 @@
 #navbar {
+    height: 60px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        display: none;
+    }
 }
+
+#logo {
+    height: 30px;
+}
+
+#button-top {
+    display: none;
+}
+
+#bars {
+    float: right;
+    font-size: 2rem;
+}
+
+ @include md {
+     #navbar {
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        // align-items: center;
+        border-bottom: 1px solid #57647c38;
+
+        ul {
+             display: flex;
+            //  align-content: center;
+        }
+
+        ul li {
+            margin-right: 20px;
+        }
+        a {
+            font-family: $font-bread;
+            color: $font-dark;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    }
+
+
+    #bars {
+        display: none;
+    }
+
+ }
+
+ @include lg {
+     #button-top {
+         display: block;
+     }
+
+ }
+
+ @include xl {
+     #navbar {
+         height: 150px;
+     }
+ }
+
+
