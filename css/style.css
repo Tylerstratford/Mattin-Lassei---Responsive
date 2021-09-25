@@ -118,6 +118,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #57647c38;
 }
 
 #navbar ul {
@@ -135,6 +136,7 @@ html, body {
 #bars {
   float: right;
   font-size: 2rem;
+  color: #FFA62E;
 }
 
 @media (min-width: 768px) {
@@ -163,6 +165,12 @@ html, body {
   #search-icon {
     margin-left: 20px;
     font-size: 1.1rem;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
+  #search-icon:hover {
+    transform: scale(1.1);
+    color: #FFA62E;
   }
 }
 
@@ -180,9 +188,20 @@ html, body {
     border-radius: 4px;
     text-transform: uppercase;
     margin-left: 20px;
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+  #button-top:hover {
+    background: #F23779;
+    color: white;
+    border: none;
+    transform: scale(1.03);
   }
   #navbar {
     height: 90px;
+  }
+  #navbar #logo {
+    height: 43px;
   }
   #navbar ul {
     align-items: center;

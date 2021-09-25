@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #57647c38;
 
         ul {
         display: none;
@@ -20,29 +21,30 @@
 #bars {
     float: right;
     font-size: 2rem;
+    color: $orange;
 }
 
 @include md {
-     #navbar {
+    #navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #57647c38;
 
-         ul {
+        ul {
              display: flex;
              align-items: center;
             }
 
         ul li {
-        margin-left: 20px;
+            margin-left: 20px;
         }
 
         a {
-        font-family: $font-bread;
-        color: $font-dark;
-        font-weight: 500;
-        font-size: 17px;
+            font-family: $font-bread;
+            color: $font-dark;
+            font-weight: 500;
+            font-size: 17px;
         }
     }
 
@@ -53,11 +55,18 @@
     #search-icon {
         margin-left: 20px;
         font-size: 1.1rem;
+        transition: all .3s ease;
+        cursor: pointer;
+    }
+
+    #search-icon:hover {
+        transform: scale(1.1);
+        color: $orange;
     }
 }
 
  @include lg {
-     #button-top {
+    #button-top {
          display: block;
          height: 42px;
          width: 139px;
@@ -70,11 +79,23 @@
          border-radius: 4px;
          text-transform: uppercase;
          margin-left: 20px;
-     }
+         transition: all 1s ease;
+         cursor: pointer;
+    }
 
-     #navbar {
+    #button-top:hover {
+        background: $purple;
+        color: white;
+        border: none;
+        transform: scale(1.03);
+    }
+    
+    #navbar {
         height: 90px;
 
+        #logo {
+            height: 43px;
+        }
         ul {
             align-items: center;
         }
@@ -82,13 +103,12 @@
         ul li {
             margin-left: 20px;
         }
-
-     }
+    }
  }
 
  @include xl {
      #navbar {
-         height: 113px;
+        height: 113px;
 
         ul li {
             margin-left: 30px;
