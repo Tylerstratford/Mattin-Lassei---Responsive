@@ -140,15 +140,16 @@ html, body {
 @media (min-width: 768px) {
   #navbar {
     display: flex;
-    height: 60px;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #57647c38;
   }
   #navbar ul {
     display: flex;
+    align-items: center;
   }
   #navbar ul li {
-    margin-right: 20px;
+    margin-left: 20px;
   }
   #navbar a {
     font-family: "Roboto", sans-serif;
@@ -159,16 +160,49 @@ html, body {
   #bars {
     display: none;
   }
+  #search-icon {
+    margin-left: 20px;
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 992px) {
   #button-top {
     display: block;
+    height: 42px;
+    width: 139px;
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    background: transparent;
+    border: 1px solid #FFA62E;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  #navbar {
+    height: 90px;
+  }
+  #navbar ul {
+    align-items: center;
+  }
+  #navbar ul li {
+    margin-left: 20px;
   }
 }
 
 @media (min-width: 1200px) {
   #navbar {
-    height: 150px;
+    height: 113px;
+  }
+  #navbar ul li {
+    margin-left: 30px;
+  }
+  #navbar #search-icon {
+    margin-left: 30px;
+  }
+  #button-top {
+    margin-left: 30px;
   }
 }

@@ -3,10 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    ul {
+
+        ul {
         display: none;
+        }
     }
-}
 
 #logo {
     height: 30px;
@@ -21,48 +22,86 @@
     font-size: 2rem;
 }
 
- @include md {
+@include md {
      #navbar {
         display: flex;
-        height: 60px;
         justify-content: space-between;
-        // align-items: center;
+        align-items: center;
         border-bottom: 1px solid #57647c38;
 
-        ul {
+         ul {
              display: flex;
-            //  align-content: center;
-        }
+             align-items: center;
+            }
 
         ul li {
-            margin-right: 20px;
+        margin-left: 20px;
         }
+
         a {
-            font-family: $font-bread;
-            color: $font-dark;
-            font-weight: 500;
-            font-size: 17px;
+        font-family: $font-bread;
+        color: $font-dark;
+        font-weight: 500;
+        font-size: 17px;
         }
     }
-
 
     #bars {
         display: none;
     }
 
- }
+    #search-icon {
+        margin-left: 20px;
+        font-size: 1.1rem;
+    }
+}
 
  @include lg {
      #button-top {
          display: block;
+         height: 42px;
+         width: 139px;
+         color: $font-dark;
+         font-family: $font-bread;
+         font-weight: 500;
+         font-size: 17px;
+         background: transparent;
+         border: 1px solid $orange;
+         border-radius: 4px;
+         text-transform: uppercase;
+         margin-left: 20px;
      }
 
+     #navbar {
+        height: 90px;
+
+        ul {
+            align-items: center;
+        }
+
+        ul li {
+            margin-left: 20px;
+        }
+
+     }
  }
 
  @include xl {
      #navbar {
-         height: 150px;
+         height: 113px;
+
+        ul li {
+            margin-left: 30px;
+        }
+
+        #search-icon {
+            margin-left: 30px;
+        }
+
+     }
+
+     #button-top {
+         margin-left: 30px;
      }
  }
-
 
