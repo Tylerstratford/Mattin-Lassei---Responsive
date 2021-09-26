@@ -227,7 +227,7 @@ html, body {
 }
 
 #showcase-1 {
-  height: 90vh;
+  height: 70vh;
 }
 
 #showcase-1-left {
@@ -251,7 +251,6 @@ html, body {
   grid-template-rows: auto auto;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid green;
   justify-content: space-between;
   row-gap: 2rem;
   padding-right: 20px;
@@ -279,8 +278,40 @@ html, body {
 }
 
 @media (min-width: 768px) {
+  #showcase-1-left {
+    text-align: left;
+    height: 50vh;
+  }
+  #showcase-1-left h1 {
+    font-size: 3.529rem;
+  }
+  #showcase-1-left p {
+    width: 50%;
+  }
   #showcase-1-grid {
     display: none;
+  }
+  #showcase-1-right {
+    display: block;
+    position: absolute;
+  }
+  #create-account {
+    margin-left: 0;
+  }
+  #desktop-icon {
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+  }
+  #blob {
+    height: 550px;
+    width: 550px;
+    position: absolute;
+    left: 200px;
+    top: -60px;
+    z-index: -2;
   }
 }
 
