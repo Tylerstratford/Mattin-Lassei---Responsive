@@ -7,11 +7,11 @@
 
     #bg {
         width: 150%;
-        height: 120vh;
+        height: 100vh;
     }
 }
 #showcase-1 {
-    height: 100vh;
+    height: 90vh;
 }
 
 #showcase-1-left {
@@ -67,12 +67,16 @@
 
 @include md {
     #bg-container {
-        left: -50px;
-     
+        left: 0;
+
         #bg {
-             width: 175%;
-             height: 90vh;
+             width: 155%;
+             height: 60vh;
          }
+     }
+
+     #showcase-1 {
+         height: 50vh;
      }
     #showcase-1-left {
         text-align: left;
@@ -122,10 +126,10 @@
 @include lg {
     #bg-container {
         left: -50px;
-     
+
         #bg {
              width: 110%;
-             height: 110vh;
+             height: 100vh;
          }
      }
     #showcase-1-grid {
@@ -172,7 +176,7 @@
             top: -270px;
         }
 
-        
+
     }
 }
 
@@ -180,7 +184,7 @@
 
     #bg-container {
         left: 0;
-     
+
         #bg {
              width: 110%;
              height: 100vh;

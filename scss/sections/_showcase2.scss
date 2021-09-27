@@ -1,5 +1,5 @@
 #showcase-2 {
-    // position: relative;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: 162px 162px;
     grid-template-rows: auto auto auto auto;
@@ -52,4 +52,23 @@
 
 .grid-box-s2:hover {
     transform: scale(1.1);
+}
+
+@include md {
+    #showcase-2 {
+        margin-top: 0;
+
+        p {
+            display: block;
+            font-family: $font-bread;
+            color: $font-light;
+        }
+    }
+}
+
+@include lg {
+    #showcase-2 {
+        margin-top: 0;
+
+    }
 }
