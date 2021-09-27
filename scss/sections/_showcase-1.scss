@@ -119,11 +119,11 @@
 
 @include lg {
     #bg-container {
-        left: -350px;
+        left: -50px;
      
-         bg {
+        #bg {
              width: 110%;
-             height: 50vh;
+             height: 110vh;
          }
      }
     #showcase-1-grid {
@@ -175,6 +175,15 @@
 }
 
 @include xl {
+
+    #bg-container {
+        left: 0;
+     
+        #bg {
+             width: 110%;
+             height: 100vh;
+         }
+     }
     #showcase-1-grid {
         display: none;
     }

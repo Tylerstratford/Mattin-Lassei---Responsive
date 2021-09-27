@@ -333,11 +333,11 @@ html, body {
 
 @media (min-width: 992px) {
   #bg-container {
-    left: -350px;
+    left: -50px;
   }
-  #bg-container bg {
+  #bg-container #bg {
     width: 110%;
-    height: 50vh;
+    height: 110vh;
   }
   #showcase-1-grid {
     display: none;
@@ -380,6 +380,13 @@ html, body {
 }
 
 @media (min-width: 1200px) {
+  #bg-container {
+    left: 0;
+  }
+  #bg-container #bg {
+    width: 110%;
+    height: 100vh;
+  }
   #showcase-1-grid {
     display: none;
   }
