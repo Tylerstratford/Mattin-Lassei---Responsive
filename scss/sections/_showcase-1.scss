@@ -1,5 +1,14 @@
-#bg {
-    display: none;
+#bg-container {
+   position: absolute;
+   overflow-x: hidden;
+   z-index: -1;
+   top: 0;
+   left: -50px;
+
+    #bg {
+        width: 150%;
+        height: 120vh;
+    }
 }
 #showcase-1 {
     height: 100vh;
@@ -55,7 +64,14 @@
 
 
 @include md {
-
+    #bg-container {
+        left: -50px;
+     
+        #bg {
+             width: 175%;
+             height: 90vh;
+         }
+     }
     #showcase-1-left {
         text-align: left;
         height: 50vh;
@@ -102,15 +118,14 @@
 }
 
 @include lg {
-    // #bg {
-    //     display: block;
-    //     position: absolute;
-    //     z-index: -5;
-    //     border: 1px solid orange;
-    //     top: 0px;
-    //     overflow: hidden;
-    // }
-    
+    #bg-container {
+        left: -350px;
+     
+         bg {
+             width: 110%;
+             height: 50vh;
+         }
+     }
     #showcase-1-grid {
         display: none;
     }

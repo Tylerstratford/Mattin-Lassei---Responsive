@@ -221,8 +221,17 @@ html, body {
   }
 }
 
-#bg {
-  display: none;
+#bg-container {
+  position: absolute;
+  overflow-x: hidden;
+  z-index: -1;
+  top: 0;
+  left: -50px;
+}
+
+#bg-container #bg {
+  width: 150%;
+  height: 120vh;
 }
 
 #showcase-1 {
@@ -277,6 +286,13 @@ html, body {
 }
 
 @media (min-width: 768px) {
+  #bg-container {
+    left: -50px;
+  }
+  #bg-container #bg {
+    width: 175%;
+    height: 90vh;
+  }
   #showcase-1-left {
     text-align: left;
     height: 50vh;
@@ -316,6 +332,13 @@ html, body {
 }
 
 @media (min-width: 992px) {
+  #bg-container {
+    left: -350px;
+  }
+  #bg-container bg {
+    width: 110%;
+    height: 50vh;
+  }
   #showcase-1-grid {
     display: none;
   }
