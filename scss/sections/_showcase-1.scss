@@ -1,5 +1,8 @@
+#bg {
+    display: none;
+}
 #showcase-1 {
-    height: 70vh;
+    height: 100vh;
 }
 
 #showcase-1-left {
@@ -56,9 +59,10 @@
     #showcase-1-left {
         text-align: left;
         height: 50vh;
-    
+
         h1 {
-            font-size: 3.529rem;
+            font-size: 3.056rem; //55px
+            padding-right: 50px;
         }
 
         p {
@@ -91,20 +95,106 @@
         position: absolute;
         left: 200px;
         top: -60px;
-        z-index: -2;
+        z-index: -1;
     }
 
 
 }
 
 @include lg {
+    // #bg {
+    //     display: block;
+    //     position: absolute;
+    //     z-index: -5;
+    //     border: 1px solid orange;
+    //     top: 0px;
+    //     overflow: hidden;
+    // }
+    
     #showcase-1-grid {
         display: none;
+    }
+
+    #showcase-1 {
+        height: 100vh;
+        width: auto;
+        align-items: center;
+
+        #showcase-1-left {
+            width: 60%;
+            height: auto;
+            p {
+                width: 100%;
+            }
+            h1 {
+                font-size: 3.33rem;
+                padding: 0;
+            }
+        }
+    }
+
+    #showcase-1-right {
+        width: 50%;
+        height: auto;
+        position: relative;
+        // overflow-x: visible;
+
+        #blob {
+            position: absolute;
+            height: 750px;
+            width: 750px;
+            left: -80px;
+            top: -450px;
+            z-index: -1;
+        }
+
+        #desktop-icon {
+            height: 400px;
+            width: 550px;
+            left: -50px;
+            top: -270px;
+        }
+
+        
     }
 }
 
 @include xl {
     #showcase-1-grid {
         display: none;
+    }
+
+    #showcase-1 {
+        border: 1px solid black;
+        height: 850px;
+
+        #showcase-1-left {
+            width: 50%;
+            border: 1px solid black;
+            height: auto;
+            p {
+                width: 100%;
+            }
+            h1 {
+                font-size: 3.33rem;
+                padding: 0;
+                line-height: 1.2;
+            }
+        }
+    }
+    #showcase-1-right {
+        #blob {
+            width: 900px;
+            height: 900px;
+            top: -520px;
+            left: 40px;
+        }
+
+        #desktop-icon {
+            height: 650px;
+            width: 750px;
+            top: -370px;
+            left: 0;
+        }
     }
 }

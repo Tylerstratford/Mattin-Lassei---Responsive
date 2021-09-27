@@ -75,12 +75,6 @@
   }
 }
 
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1320px;
-  }
-}
-
 .button-standard {
   border-style: none;
   background: linear-gradient(120deg, #f23779 10%, #ff6803 90%);
@@ -111,6 +105,7 @@ html, body {
   margin: 0;
   line-height: 1.5;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -226,8 +221,12 @@ html, body {
   }
 }
 
+#bg {
+  display: none;
+}
+
 #showcase-1 {
-  height: 70vh;
+  height: 100vh;
 }
 
 #showcase-1-left {
@@ -283,7 +282,8 @@ html, body {
     height: 50vh;
   }
   #showcase-1-left h1 {
-    font-size: 3.529rem;
+    font-size: 3.056rem;
+    padding-right: 50px;
   }
   #showcase-1-left p {
     width: 50%;
@@ -311,7 +311,7 @@ html, body {
     position: absolute;
     left: 200px;
     top: -60px;
-    z-index: -2;
+    z-index: -1;
   }
 }
 
@@ -319,10 +319,74 @@ html, body {
   #showcase-1-grid {
     display: none;
   }
+  #showcase-1 {
+    height: 100vh;
+    width: auto;
+    align-items: center;
+  }
+  #showcase-1 #showcase-1-left {
+    width: 60%;
+    height: auto;
+  }
+  #showcase-1 #showcase-1-left p {
+    width: 100%;
+  }
+  #showcase-1 #showcase-1-left h1 {
+    font-size: 3.33rem;
+    padding: 0;
+  }
+  #showcase-1-right {
+    width: 50%;
+    height: auto;
+    position: relative;
+  }
+  #showcase-1-right #blob {
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    left: -80px;
+    top: -450px;
+    z-index: -1;
+  }
+  #showcase-1-right #desktop-icon {
+    height: 400px;
+    width: 550px;
+    left: -50px;
+    top: -270px;
+  }
 }
 
 @media (min-width: 1200px) {
   #showcase-1-grid {
     display: none;
+  }
+  #showcase-1 {
+    border: 1px solid black;
+    height: 850px;
+  }
+  #showcase-1 #showcase-1-left {
+    width: 50%;
+    border: 1px solid black;
+    height: auto;
+  }
+  #showcase-1 #showcase-1-left p {
+    width: 100%;
+  }
+  #showcase-1 #showcase-1-left h1 {
+    font-size: 3.33rem;
+    padding: 0;
+    line-height: 1.2;
+  }
+  #showcase-1-right #blob {
+    width: 900px;
+    height: 900px;
+    top: -520px;
+    left: 40px;
+  }
+  #showcase-1-right #desktop-icon {
+    height: 650px;
+    width: 750px;
+    top: -370px;
+    left: 0;
   }
 }
