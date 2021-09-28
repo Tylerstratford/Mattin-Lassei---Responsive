@@ -1,0 +1,134 @@
+#showcase-3 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    row-gap: 50px;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    #box4-s3 {
+        font-size: $mobile-heading2;
+        font-family: $font-primary;
+        text-align: center;
+    }
+    p {
+        display: none;
+    }
+
+    #box1-s3 {
+        display: none;
+    }
+
+    #box2-s3 {
+        display: none;
+    }
+
+    #box3-s3 {
+        display: none;
+    }
+
+    #box4-s3 {
+        grid-column: 1/4;
+        grid-row: 1/1;
+        width: auto;
+    }
+
+    #box5-s3 {
+        //no design required
+    }
+
+    #box6-s3 {
+        grid-column:2/2 ;
+        grid-row: 2/2;
+    }
+
+    #box7-s3 {
+        grid-column: 1/2 ;
+        grid-row: 4/4;
+    }
+
+    #box8-s3 {
+        grid-column: 2/2;
+        grid-row: 4/4;
+    }
+
+    #box9-s3 {
+        grid-column: 1/2;
+        grid-row: 6/6;
+    }
+
+    #box10-s3 {
+        grid-column: 2/2;
+        grid-row: 6/6;
+    }
+
+    #box11-s3 {
+        grid-column: 3/3;
+        grid-row: 2/2;
+        i {
+            color: $orange;
+            font-size: 1.8rem;
+        }
+    }
+
+    #box12-s3 {
+        grid-column: 3/3 ;
+        grid-row: 4/4;
+        i {
+            color: $orange;
+            font-size: 1.8rem;
+        }
+    }
+
+    #box13-s3 {
+        grid-column: 3/3;
+        grid-row: 6/6;
+        i {
+            color: $orange;
+            font-size: 2rem;
+            border: 1px solid black;
+        }
+    }
+
+    #box14-s3 {
+        grid-column: 1/4;
+        grid-row: 7/7;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #box15-s3 {
+        grid-column: 1/4;
+        grid-row: 5/5;
+        i {
+            font-size: 1.8rem;
+            color: rgb(185, 182, 182);
+        }
+    }
+
+    #box16-s3 {
+        grid-column: 1/4;
+        grid-row: 3/3;
+        i {
+            font-size: 1.8rem;
+            color: rgb(185, 182, 182);
+        }
+    }
+   .s3-grid-medium-text {
+    font-family: $font-primary;
+    color: $font-dark;
+    font-size: 1rem;
+    text-transform: capitalize;
+   }
+
+    .s3-grid-numbers {
+        color: $purple;
+        font-size: 2.556rem;
+        font-family: $font-primary;
+        font-weight: 700;
+    }
+}
+

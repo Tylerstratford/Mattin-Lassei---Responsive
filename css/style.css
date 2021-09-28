@@ -612,3 +612,141 @@ html, body {
     text-align: left;
   }
 }
+
+#showcase-3 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  row-gap: 50px;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+}
+
+#showcase-3 #box4-s3 {
+  font-size: 2.11rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+#showcase-3 p {
+  display: none;
+}
+
+#showcase-3 #box1-s3 {
+  display: none;
+}
+
+#showcase-3 #box2-s3 {
+  display: none;
+}
+
+#showcase-3 #box3-s3 {
+  display: none;
+}
+
+#showcase-3 #box4-s3 {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  width: auto;
+}
+
+#showcase-3 #box6-s3 {
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+#showcase-3 #box7-s3 {
+  grid-column: 1/2;
+  grid-row: 4/4;
+}
+
+#showcase-3 #box8-s3 {
+  grid-column: 2/2;
+  grid-row: 4/4;
+}
+
+#showcase-3 #box9-s3 {
+  grid-column: 1/2;
+  grid-row: 6/6;
+}
+
+#showcase-3 #box10-s3 {
+  grid-column: 2/2;
+  grid-row: 6/6;
+}
+
+#showcase-3 #box11-s3 {
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
+
+#showcase-3 #box11-s3 i {
+  color: #FFA62E;
+  font-size: 1.8rem;
+}
+
+#showcase-3 #box12-s3 {
+  grid-column: 3/3;
+  grid-row: 4/4;
+}
+
+#showcase-3 #box12-s3 i {
+  color: #FFA62E;
+  font-size: 1.8rem;
+}
+
+#showcase-3 #box13-s3 {
+  grid-column: 3/3;
+  grid-row: 6/6;
+}
+
+#showcase-3 #box13-s3 i {
+  color: #FFA62E;
+  font-size: 2rem;
+  border: 1px solid black;
+}
+
+#showcase-3 #box14-s3 {
+  grid-column: 1/4;
+  grid-row: 7/7;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#showcase-3 #box15-s3 {
+  grid-column: 1/4;
+  grid-row: 5/5;
+}
+
+#showcase-3 #box15-s3 i {
+  font-size: 1.8rem;
+  color: #b9b6b6;
+}
+
+#showcase-3 #box16-s3 {
+  grid-column: 1/4;
+  grid-row: 3/3;
+}
+
+#showcase-3 #box16-s3 i {
+  font-size: 1.8rem;
+  color: #b9b6b6;
+}
+
+#showcase-3 .s3-grid-medium-text {
+  font-family: "Poppins", sans-serif;
+  color: #252525;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+#showcase-3 .s3-grid-numbers {
+  color: #F23779;
+  font-size: 2.556rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
