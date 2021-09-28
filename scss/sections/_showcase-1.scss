@@ -102,6 +102,7 @@
 
     #create-account {
         margin-left: 0;
+        height: 50px;
     }
     #desktop-icon {
         height: 180px;
@@ -176,8 +177,10 @@
             left: -50px;
             top: -270px;
         }
+    }
 
-
+    #create-account {
+        height: 60px;
     }
 }
 
@@ -196,12 +199,10 @@
     }
 
     #showcase-1 {
-        border: 1px solid black;
         height: 850px;
 
         #showcase-1-left {
             width: 50%;
-            border: 1px solid black;
             height: auto;
             p {
                 width: 100%;
