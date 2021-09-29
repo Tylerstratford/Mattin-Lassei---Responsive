@@ -72,6 +72,7 @@
     #showcase-4 {
         height: 100vh;
         position: relative;
+        margin-top: 60px;
         h1 {
             text-align: left;
             font-size: 2.667rem;
@@ -140,17 +141,76 @@
             display: block;
             position: absolute;
             height: 350px;
-            bottom: 350px;
+            bottom: 500px;
             z-index: -99;
-            border: 1px solid black;
         }
     }
 }
 
 @include lg {
+    #showcase-4 {
+        margin-top: 150px;
+        h1 {
+            text-align: center;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            text-align: center;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #numbers-s4 {
+            p {
+                text-align: center;
+                width: auto;
+            }
+        }
+        #map {
+            width: 100%;
+            top: 250px;
+        }
+
+        #box-s4-text {
+            p {
+                text-align: left;
+                width: auto;
+            }
+        }
+    }
+
 
 }
 
 @include xl {
+    #showcase-4 {
+        h1 {
+            width: 70%;
+        }
 
+        p {
+            width: 60%;
+        }
+    
+        #numbers-s4 {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #map {
+            transform: scale(1.2);
+            top: 280px;
+        }
+
+        #box-s4-text {
+            p {
+                text-align: left;
+                width: auto;
+            }
+        }
+    }
 }

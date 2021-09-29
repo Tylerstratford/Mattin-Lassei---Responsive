@@ -1019,6 +1019,7 @@ html, body {
   #showcase-4 {
     height: 100vh;
     position: relative;
+    margin-top: 60px;
   }
   #showcase-4 h1 {
     text-align: left;
@@ -1077,8 +1078,59 @@ html, body {
     display: block;
     position: absolute;
     height: 350px;
-    bottom: 350px;
+    bottom: 500px;
     z-index: -99;
-    border: 1px solid black;
+  }
+}
+
+@media (min-width: 992px) {
+  #showcase-4 {
+    margin-top: 150px;
+  }
+  #showcase-4 h1 {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #showcase-4 p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #showcase-4 #numbers-s4 p {
+    text-align: center;
+    width: auto;
+  }
+  #showcase-4 #map {
+    width: 100%;
+    top: 250px;
+  }
+  #showcase-4 #box-s4-text p {
+    text-align: left;
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #showcase-4 h1 {
+    width: 70%;
+  }
+  #showcase-4 p {
+    width: 60%;
+  }
+  #showcase-4 #numbers-s4 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #showcase-4 #map {
+    transform: scale(1.2);
+    top: 280px;
+  }
+  #showcase-4 #box-s4-text p {
+    text-align: left;
+    width: auto;
   }
 }
