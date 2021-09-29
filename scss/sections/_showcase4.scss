@@ -70,7 +70,7 @@
 
 @include md {
     #showcase-4 {
-        height: 100vh;
+        height: auto;
         position: relative;
         margin-top: 60px;
         h1 {
@@ -110,6 +110,7 @@
         }
         
         #questions-s4 {
+            // position: relative;
             background-color: white;
             display: block;
             width: 630px;
@@ -141,13 +142,14 @@
             display: block;
             position: absolute;
             height: 350px;
-            bottom: 500px;
+            bottom: 20vh;
             z-index: -99;
         }
     }
 }
 
 @include lg {
+    height: 80vh;
     #showcase-4 {
         margin-top: 150px;
         h1 {
