@@ -245,7 +245,9 @@ html, body {
 
 #showcase-1-left h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 2.824rem;
+  color: #252525;
+  font-size: 2.111rem;
+  font-weight: 700;
 }
 
 #showcase-1-left p {
@@ -304,8 +306,11 @@ html, body {
     height: 50vh;
   }
   #showcase-1-left h1 {
-    font-size: 3.056rem;
-    padding-right: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-right: 60px;
   }
   #showcase-1-left p {
     width: 50%;
@@ -439,8 +444,10 @@ html, body {
 }
 
 #showcase-2 h1 {
-  font-size: 2.11rem;
   font-family: "Poppins", sans-serif;
+  color: #252525;
+  font-size: 2.111rem;
+  font-weight: 700;
   text-align: left;
   padding-right: 5px;
 }
@@ -501,10 +508,13 @@ html, body {
     width: 80%;
   }
   #showcase-2 h1 {
-    font-size: 3.056rem;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    font-size: 3rem;
+    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 0;
-    width: 80%;
+    width: 90%;
   }
   #showcase-2 h2 {
     font-size: 1.1rem;
@@ -544,7 +554,7 @@ html, body {
 @media (min-width: 992px) {
   #showcase-2 {
     margin-top: 20px;
-    grid-template-columns: auto 240px 240px;
+    grid-template-columns: auto 220px 220px;
     grid-template-rows: auto auto;
     justify-content: space-between;
     row-gap: 100px;
@@ -625,8 +635,10 @@ html, body {
 }
 
 #showcase-3 #box4-s3 {
-  font-size: 2.11rem;
   font-family: "Poppins", sans-serif;
+  color: #252525;
+  font-size: 2.111rem;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -956,9 +968,10 @@ html, body {
 #showcase-4 h1 {
   font-family: "Poppins", sans-serif;
   color: #252525;
-  text-align: center;
   font-size: 2.111rem;
   font-weight: 700;
+  text-align: center;
+  font-size: 2.111rem;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1023,8 +1036,11 @@ html, body {
     margin-top: 60px;
   }
   #showcase-4 h1 {
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    font-size: 3rem;
+    font-weight: 700;
     text-align: left;
-    font-size: 2.667rem;
   }
   #showcase-4 p {
     display: block;
@@ -1150,6 +1166,7 @@ html, body {
   font-family: "Poppins", sans-serif;
   color: #252525;
   font-size: 2.111rem;
+  font-weight: 700;
 }
 
 #header-s5 p {
@@ -1211,7 +1228,10 @@ h2 {
     text-align: left;
   }
   #header-s5 h1 {
-    font-size: 2.667rem;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    font-size: 3rem;
+    font-weight: 700;
     width: 90%;
   }
   #header-s5 p {

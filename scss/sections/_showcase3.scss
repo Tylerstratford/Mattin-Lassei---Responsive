@@ -8,8 +8,7 @@
     align-items: center;
     text-align: center;
     #box4-s3 {
-        font-size: $mobile-heading2;
-        font-family: $font-primary;
+        @include mobile-header;
         text-align: center;
     }
     p {

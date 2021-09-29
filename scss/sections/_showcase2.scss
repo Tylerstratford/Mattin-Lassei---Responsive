@@ -7,8 +7,7 @@
     justify-content: space-between;
 
     h1 {
-        font-size: 2.11rem; //38px
-        font-family: $font-primary;
+        @include mobile-header;
         text-align: left;
         padding-right: 5px;
     }
@@ -71,10 +70,10 @@
         }
 
         h1 {
-            font-size: 3.056rem;
+            @include tablet-header;
             line-height: 1.2;
             margin-bottom: 0;
-            width: 80%;
+            width: 90%;
         }
 
         h2 {
@@ -120,7 +119,7 @@
 @include lg {
     #showcase-2 {
         margin-top: 20px;
-        grid-template-columns: auto 240px 240px;
+        grid-template-columns: auto 220px 220px;
         grid-template-rows: auto auto;
         justify-content: space-between;
         row-gap: 100px;
