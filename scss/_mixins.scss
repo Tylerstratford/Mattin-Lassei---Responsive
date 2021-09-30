@@ -5,6 +5,16 @@
     font-weight: 700;
 }
 
+@mixin mobile-bread {
+    font-family: $font-bread;
+    color: $font-light;
+}
+
+@mixin mobile-sub-header {
+    font-family: $font-primary;
+    color: $font-dark;
+}
+
 @mixin tablet-header {
     font-family: $font-primary;
     color: $font-dark;

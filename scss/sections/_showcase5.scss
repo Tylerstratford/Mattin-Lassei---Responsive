@@ -1,6 +1,6 @@
 #showcase-5 {
-    margin-top: 100px;
-    height: auto;
+    margin-top: 70px;
+    height: 100vh;
 }
 
 #header-s5 {
@@ -10,14 +10,12 @@
     }
     p {
         display: none;
-        font-family: $font-bread;
-        color: $font-light;
+        @include mobile-bread;
     }
 }
 
 .text-bread {
-    font-family: $font-bread;
-    color: $font-light;
+    @include mobile-bread;
 }
 
 h2 {

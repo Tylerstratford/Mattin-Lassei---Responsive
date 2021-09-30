@@ -5,7 +5,6 @@
         h1 {
             @include mobile-header;
             text-align: center;
-            font-size: 2.111rem;
             padding-left: 10px;
             padding-right: 10px;
         } 
@@ -19,7 +18,7 @@
             grid-template-columns: 45% 45%;
             grid-template-rows: auto auto;
             justify-content: space-between;
-            row-gap: 100px;
+            row-gap: 60px;
 
             h3 {
                 color: $purple;
@@ -32,8 +31,7 @@
 
             p {
                 display: block;
-                font-family: $font-bread;
-                color: $font-light;
+                @include mobile-bread;
                 margin-top: 0;
                 text-align: center;
             }
@@ -61,7 +59,7 @@
         #button-s4-mobile {
             margin-left: auto;
             margin-right: auto;
-            margin-top: 40px;
+            margin-top: 50px;
         }
 }
 

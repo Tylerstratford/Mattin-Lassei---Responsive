@@ -232,7 +232,7 @@ html, body {
 
 #bg-container #bg {
   width: 150%;
-  height: 100vh;
+  height: 90vh;
 }
 
 #showcase-1 {
@@ -253,7 +253,7 @@ html, body {
 #showcase-1-left p {
   font-family: "Roboto", sans-serif;
   color: #57647C;
-  font-size: 1.059rem;
+  margin-bottom: 40px;
 }
 
 #showcase-1-grid {
@@ -263,7 +263,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
-  row-gap: 2rem;
+  row-gap: 4rem;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -281,7 +281,7 @@ html, body {
 }
 
 #create-account {
-  margin-top: 37px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -392,6 +392,9 @@ html, body {
   #create-account {
     height: 60px;
   }
+  #create-account:hover {
+    transform: scale(1.03);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -435,11 +438,12 @@ html, body {
 }
 
 #showcase-2 {
+  height: 100vh;
   margin-top: 0px;
   display: grid;
   grid-template-columns: 162px 162px;
   grid-template-rows: auto auto auto auto;
-  row-gap: 50px;
+  row-gap: 15px;
   justify-content: space-between;
 }
 
@@ -458,6 +462,7 @@ html, body {
 
 #showcase-2 h2 {
   font-family: "Poppins", sans-serif;
+  color: #252525;
 }
 
 #box1-s2 {
@@ -475,6 +480,7 @@ html, body {
   width: 140px;
   height: 50px;
   justify-content: center;
+  margin-top: 60px;
 }
 
 #view-all-nonmobile {
@@ -624,11 +630,11 @@ html, body {
 }
 
 #showcase-3 {
-  margin-top: 40px;
+  height: 100vh;
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 90px 120px 90px;
   grid-template-rows: auto auto auto auto auto auto auto;
-  row-gap: 50px;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -695,8 +701,8 @@ html, body {
 }
 
 #showcase-3 #box11-s3 i {
-  color: #FFA62E;
-  font-size: 1.8rem;
+  color: #F23779;
+  font-size: 2.8rem;
 }
 
 #showcase-3 #box12-s3 {
@@ -705,8 +711,8 @@ html, body {
 }
 
 #showcase-3 #box12-s3 i {
-  color: #FFA62E;
-  font-size: 1.8rem;
+  color: #F23779;
+  font-size: 2.8rem;
 }
 
 #showcase-3 #box13-s3 {
@@ -715,8 +721,8 @@ html, body {
 }
 
 #showcase-3 #box13-s3 i {
-  color: #FFA62E;
-  font-size: 2rem;
+  color: #F23779;
+  font-size: 3rem;
 }
 
 #showcase-3 #box14-s3 {
@@ -734,6 +740,7 @@ html, body {
 #showcase-3 #box15-s3 i {
   font-size: 1.8rem;
   color: #b9b6b6;
+  opacity: 0.5;
 }
 
 #showcase-3 #box16-s3 {
@@ -744,20 +751,23 @@ html, body {
 #showcase-3 #box16-s3 i {
   font-size: 1.8rem;
   color: #b9b6b6;
+  opacity: 0.5;
 }
 
 #showcase-3 .s3-grid-medium-text {
   font-family: "Poppins", sans-serif;
   color: #252525;
-  font-size: 1rem;
   text-transform: capitalize;
+  color: #FFA62E;
 }
 
 #showcase-3 .s3-grid-numbers {
-  color: #F23779;
-  font-size: 2.556rem;
   font-family: "Poppins", sans-serif;
+  color: #252525;
+  font-size: 2.111rem;
   font-weight: 700;
+  font-size: 3rem;
+  color: #F23779;
 }
 
 @media (min-width: 768px) {
@@ -971,7 +981,6 @@ html, body {
   font-size: 2.111rem;
   font-weight: 700;
   text-align: center;
-  font-size: 2.111rem;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -985,7 +994,7 @@ html, body {
   grid-template-columns: 45% 45%;
   grid-template-rows: auto auto;
   justify-content: space-between;
-  row-gap: 100px;
+  row-gap: 60px;
 }
 
 #showcase-4 #numbers-s4 h3 {
@@ -1026,7 +1035,7 @@ html, body {
 #showcase-4 #button-s4-mobile {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 @media (min-width: 768px) {
@@ -1154,8 +1163,8 @@ html, body {
 }
 
 #showcase-5 {
-  margin-top: 100px;
-  height: auto;
+  margin-top: 70px;
+  height: 100vh;
 }
 
 #header-s5 {

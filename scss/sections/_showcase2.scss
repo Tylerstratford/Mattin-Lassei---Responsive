@@ -1,9 +1,10 @@
 #showcase-2 {
+    height: 100vh;
     margin-top: 0px;
     display: grid;
     grid-template-columns: 162px 162px;
     grid-template-rows: auto auto auto auto;
-    row-gap: 50px;
+    row-gap: 15px;
     justify-content: space-between;
 
     h1 {
@@ -16,7 +17,7 @@
     }
 
     h2 {
-        font-family: $font-primary;
+        @include mobile-sub-header;
     }
 }
 
@@ -35,6 +36,7 @@
     width: 140px;
     height: 50px;
     justify-content: center;
+    margin-top: 60px;
 }
 #view-all-nonmobile {
     display: none;
