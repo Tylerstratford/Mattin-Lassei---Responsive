@@ -132,7 +132,7 @@ html, body {
 #bars {
   position: fixed;
   right: 10px;
-  top: 13px;
+  top: 10px;
   font-size: 2.3rem;
   color: #FFA62E;
   opacity: .8;
