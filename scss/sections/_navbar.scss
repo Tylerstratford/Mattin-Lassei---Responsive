@@ -79,12 +79,12 @@
          border-radius: 4px;
          text-transform: uppercase;
          margin-left: 20px;
-         transition: all 1s ease;
+         transition: all 0.5s ease;
          cursor: pointer;
     }
 
     #button-top:hover {
-        background: $purple;
+        background: $orange;
         color: white;
         border: none;
         transform: scale(1.03);

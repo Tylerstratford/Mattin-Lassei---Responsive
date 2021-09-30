@@ -1,6 +1,6 @@
 #showcase-5 {
     margin-top: 70px;
-    height: 100vh;
+    height: 812px;
 }
 
 #header-s5 {
@@ -59,6 +59,7 @@ h2 {
 
 @include md {
     #showcase-5 {
+        height: auto;
         margin-top: 100px;
     }
 

@@ -184,11 +184,11 @@ html, body {
     border-radius: 4px;
     text-transform: uppercase;
     margin-left: 20px;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
   }
   #button-top:hover {
-    background: #F23779;
+    background: #FFA62E;
     color: white;
     border: none;
     transform: scale(1.03);
@@ -236,7 +236,7 @@ html, body {
 }
 
 #showcase-1 {
-  height: 90vh;
+  height: 752px;
 }
 
 #showcase-1-left {
@@ -291,19 +291,17 @@ html, body {
 }
 
 @media (min-width: 768px) {
-  #bg-container {
-    left: 0;
-  }
   #bg-container #bg {
     width: 155%;
     height: 50vh;
   }
   #showcase-1 {
     height: 50vh;
+    margin-top: 40px;
   }
   #showcase-1-left {
     text-align: left;
-    height: 50vh;
+    height: 50%;
   }
   #showcase-1-left h1 {
     font-family: "Poppins", sans-serif;
@@ -355,7 +353,8 @@ html, body {
     display: none;
   }
   #showcase-1 {
-    height: 80vh;
+    height: auto;
+    margin-top: 60px;
     width: auto;
     align-items: center;
   }
@@ -440,8 +439,8 @@ html, body {
 }
 
 #showcase-2 {
-  height: 100vh;
-  margin-top: 0px;
+  height: 812px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 162px 162px;
   grid-template-rows: auto auto auto auto;
@@ -504,7 +503,8 @@ html, body {
 
 @media (min-width: 768px) {
   #showcase-2 {
-    margin-top: 20px;
+    height: auto;
+    margin-top: 40px;
     grid-template-columns: 250px 250px;
     grid-template-rows: auto auto auto;
     justify-content: space-between;
@@ -562,7 +562,7 @@ html, body {
 
 @media (min-width: 992px) {
   #showcase-2 {
-    height: 70vh;
+    height: auto;
     margin-top: 80px;
     grid-template-columns: auto 220px 220px;
     grid-template-rows: auto auto;
@@ -637,7 +637,7 @@ html, body {
 }
 
 #showcase-3 {
-  height: 100vh;
+  height: 812px;
   margin-top: 50px;
   display: grid;
   grid-template-columns: 90px 120px 90px;
@@ -779,6 +779,8 @@ html, body {
 
 @media (min-width: 768px) {
   #showcase-3 {
+    margin-top: 40px;
+    height: auto;
     grid-template-columns: 10% 10% 55%;
     grid-template-rows: auto auto auto auto;
     row-gap: 30px;
@@ -985,7 +987,7 @@ html, body {
 }
 
 #showcase-4 {
-  height: 90vh;
+  height: 812px;
   margin-top: 40px;
 }
 
@@ -1124,7 +1126,6 @@ html, body {
 }
 
 @media (min-width: 992px) {
-  height: 80vh;
   #showcase-4 {
     margin-top: 150px;
   }
@@ -1181,7 +1182,7 @@ html, body {
 
 #showcase-5 {
   margin-top: 70px;
-  height: 100vh;
+  height: 812px;
 }
 
 #header-s5 {
@@ -1248,6 +1249,7 @@ h2 {
 
 @media (min-width: 768px) {
   #showcase-5 {
+    height: auto;
     margin-top: 100px;
   }
   #header-s5 {

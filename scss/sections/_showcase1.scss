@@ -11,7 +11,7 @@
     }
 }
 #showcase-1 {
-    height: 90vh;
+    height: 752px;
 }
 
 #showcase-1-left {
@@ -65,8 +65,6 @@
 
 @include md {
     #bg-container {
-        left: 0;
-
         #bg {
              width: 155%;
              height: 50vh;
@@ -75,10 +73,11 @@
 
      #showcase-1 {
          height: 50vh;
+         margin-top: 40px;
      }
     #showcase-1-left {
         text-align: left;
-        height: 50vh;
+        height: 50%;
 
         h1 {
             @include tablet-header;
@@ -125,6 +124,7 @@
 @include lg {
     #bg-container {
         left: -50px;
+        // width: 100%;
 
         #bg {
              width: 110%;
@@ -137,7 +137,8 @@
     }
 
     #showcase-1 {
-        height: 80vh;
+        height: auto;
+        margin-top: 60px;
         width: auto;
         align-items: center;
 

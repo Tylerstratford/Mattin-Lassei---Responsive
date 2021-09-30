@@ -1,6 +1,6 @@
 #showcase-2 {
-    height: 100vh;
-    margin-top: 0px;
+    height: 812px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 162px 162px;
     grid-template-rows: auto auto auto auto;
@@ -57,7 +57,8 @@
 
 @include md {
     #showcase-2 {
-        margin-top: 20px;
+        height: auto;
+        margin-top: 40px;
         grid-template-columns: 250px 250px;
         grid-template-rows: auto auto auto;
         justify-content: space-between;
@@ -120,7 +121,7 @@
 
 @include lg {
     #showcase-2 {
-        height: 70vh;
+        height: auto;
         margin-top: 80px;
         grid-template-columns: auto 220px 220px;
         grid-template-rows: auto auto;
