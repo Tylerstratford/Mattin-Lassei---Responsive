@@ -122,7 +122,7 @@
 @include lg {
     #showcase-2 {
         height: auto;
-        margin-top: 80px;
+        margin-top: 120px;
         grid-template-columns: auto 220px 220px;
         grid-template-rows: auto auto;
         justify-content: space-between;
@@ -161,8 +161,7 @@
         }
 
         .grid-box-s2 {
-            padding-left: 5px;
-            padding-top: 5px;
+            padding: 10px 10px;
             text-align: center;
             cursor: pointer;
         }
@@ -201,6 +200,7 @@
 
         .grid-box-s2 {
             text-align: left;
+            padding: 15px 15px;
         }
     }
 }

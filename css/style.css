@@ -130,12 +130,51 @@ html, body {
 }
 
 #bars {
-  float: right;
-  font-size: 2rem;
+  position: fixed;
+  right: 10px;
+  top: 13px;
+  font-size: 2.3rem;
   color: #FFA62E;
+  opacity: .8;
+}
+
+#check {
+  display: none;
+  position: absolute;
+}
+
+#dropdown {
+  position: fixed;
+  right: -100%;
+  top: 60px;
+  width: 65px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px #b9b9b9;
+  border-radius: 10px;
+  opacity: .9;
+  transition: all 0.3s ease;
+}
+
+#dropdown i {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #F23779;
+  font-size: 2rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#check:checked ~ #dropdown {
+  right: 10px;
 }
 
 @media (min-width: 768px) {
+  #dropdown {
+    display: none;
+  }
   #navbar {
     display: flex;
     justify-content: space-between;
@@ -152,8 +191,8 @@ html, body {
   #navbar a {
     font-family: "Roboto", sans-serif;
     color: #252525;
+    font-size: 0.944rem;
     font-weight: 500;
-    font-size: 17px;
   }
   #bars {
     display: none;
@@ -175,10 +214,10 @@ html, body {
     display: block;
     height: 42px;
     width: 139px;
-    color: #252525;
     font-family: "Roboto", sans-serif;
+    color: #252525;
+    font-size: 0.944rem;
     font-weight: 500;
-    font-size: 17px;
     background: transparent;
     border: 1px solid #FFA62E;
     border-radius: 4px;
@@ -354,7 +393,7 @@ html, body {
   }
   #showcase-1 {
     height: auto;
-    margin-top: 60px;
+    margin-top: 80px;
     width: auto;
     align-items: center;
   }
@@ -368,7 +407,7 @@ html, body {
   #showcase-1 #showcase-1-left h1 {
     font-family: "Poppins", sans-serif;
     color: #252525;
-    font-size: 3.75rem;
+    font-size: 3.33rem;
     font-weight: 700;
     padding: 0;
   }
@@ -382,14 +421,14 @@ html, body {
     height: 750px;
     width: 750px;
     left: -80px;
-    top: -450px;
+    top: -400px;
     z-index: -1;
   }
   #showcase-1-right #desktop-icon {
     height: 400px;
     width: 550px;
     left: -50px;
-    top: -270px;
+    top: -220px;
   }
   #create-account {
     height: 60px;
@@ -402,16 +441,18 @@ html, body {
 @media (min-width: 1200px) {
   #bg-container {
     left: 0;
+    width: 100%;
   }
   #bg-container #bg {
-    width: 120%;
-    height: 100vh;
+    width: 150%;
+    height: 80vh;
   }
   #showcase-1-grid {
     display: none;
   }
   #showcase-1 {
     height: 850px;
+    margin-top: 40px;
   }
   #showcase-1 #showcase-1-left {
     width: 50%;
@@ -563,7 +604,7 @@ html, body {
 @media (min-width: 992px) {
   #showcase-2 {
     height: auto;
-    margin-top: 80px;
+    margin-top: 120px;
     grid-template-columns: auto 220px 220px;
     grid-template-rows: auto auto;
     justify-content: space-between;
@@ -596,8 +637,7 @@ html, body {
     border-radius: 10px;
   }
   #showcase-2 .grid-box-s2 {
-    padding-left: 5px;
-    padding-top: 5px;
+    padding: 10px 10px;
     text-align: center;
     cursor: pointer;
   }
@@ -633,6 +673,7 @@ html, body {
   }
   #showcase-2 .grid-box-s2 {
     text-align: left;
+    padding: 15px 15px;
   }
 }
 
@@ -876,7 +917,7 @@ html, body {
     margin-bottom: 0;
     font-family: "Poppins", sans-serif;
     color: #252525;
-    font-size: 1.375rem;
+    font-size: 1.222rem;
     font-weight: 700;
   }
   #showcase-3 .s3-grid-small-text {
