@@ -10,12 +10,12 @@
     }
     p {
         display: none;
-        @include mobile-bread;
+        @include bread;
     }
 }
 
 .text-bread {
-    @include mobile-bread;
+    @include bread;
 }
 
 h2 {

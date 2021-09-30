@@ -5,7 +5,7 @@
     font-weight: 700;
 }
 
-@mixin mobile-bread {
+@mixin bread {
     font-family: $font-bread;
     color: $font-light;
 }
@@ -26,5 +26,12 @@
     font-family: $font-primary;
     color: $font-dark;
     font-size: 3.75rem;
+    font-weight: 700;
+}
+
+@mixin desktop-subheader {
+    font-family: $font-primary;
+    color: $font-dark;
+    font-size: 1.375rem;
     font-weight: 700;
 }

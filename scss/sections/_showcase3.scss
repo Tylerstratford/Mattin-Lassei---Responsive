@@ -142,7 +142,7 @@
         }
 
         .s3-grid-medium-text {
-            font-size: 1.3rem;
+            font-size: 1.375rem;
             margin-top: 0;
         }
 
@@ -230,7 +230,7 @@
 
 @include lg {
     #showcase-3 {
-        margin-top: 170px;
+        margin-top: 140px;
         display: grid;
         grid-template-columns: auto 30px 50px 280px;
         grid-template-rows: 130px 120px 110px 110px auto;
@@ -241,10 +241,15 @@
 
         .s3-grid-medium-text {
             margin-bottom: 0;
+            @include desktop-subheader
         }
 
         .s3-grid-small-text {
             margin-top: 30px;
+        }
+
+        .s3-grid-numbers {
+            font-size: 3rem;
         }
 
         #box1-s3 {

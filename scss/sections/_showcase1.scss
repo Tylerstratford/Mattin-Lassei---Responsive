@@ -22,7 +22,7 @@
     }
 
     p {
-        @include mobile-bread;
+        @include bread;
         margin-bottom: 40px;
     }
 }
@@ -128,7 +128,7 @@
 
         #bg {
              width: 110%;
-             height: 80vh;
+             height: 70vh;
          }
      }
 
@@ -148,7 +148,7 @@
                 width: 100%;
             }
             h1 {
-                font-size: 3.33rem;
+                @include desktop-header;
                 padding: 0;
             }
         }
@@ -210,7 +210,6 @@
                 width: 100%;
             }
             h1 {
-                font-size: 3.33rem;
                 padding: 0;
                 line-height: 1.2;
             }

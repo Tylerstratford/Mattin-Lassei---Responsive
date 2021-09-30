@@ -349,7 +349,7 @@ html, body {
   }
   #bg-container #bg {
     width: 110%;
-    height: 80vh;
+    height: 70vh;
   }
   #showcase-1-grid {
     display: none;
@@ -367,7 +367,10 @@ html, body {
     width: 100%;
   }
   #showcase-1 #showcase-1-left h1 {
-    font-size: 3.33rem;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    font-size: 3.75rem;
+    font-weight: 700;
     padding: 0;
   }
   #showcase-1-right {
@@ -419,7 +422,6 @@ html, body {
     width: 100%;
   }
   #showcase-1 #showcase-1-left h1 {
-    font-size: 3.33rem;
     padding: 0;
     line-height: 1.2;
   }
@@ -554,12 +556,14 @@ html, body {
     display: block;
     width: 140px;
     height: 50px;
+    transition: all 0.3s ease;
   }
 }
 
 @media (min-width: 992px) {
   #showcase-2 {
-    margin-top: 20px;
+    height: 70vh;
+    margin-top: 80px;
     grid-template-columns: auto 220px 220px;
     grid-template-rows: auto auto;
     justify-content: space-between;
@@ -596,6 +600,9 @@ html, body {
     padding-top: 5px;
     text-align: center;
     cursor: pointer;
+  }
+  #view-all-nonmobile:hover {
+    transform: scale(1.03);
   }
 }
 
@@ -784,7 +791,7 @@ html, body {
     margin-bottom: 0;
   }
   #showcase-3 .s3-grid-medium-text {
-    font-size: 1.3rem;
+    font-size: 1.375rem;
     margin-top: 0;
   }
   #showcase-3 .s3-grid-numbers {
@@ -855,7 +862,7 @@ html, body {
 
 @media (min-width: 992px) {
   #showcase-3 {
-    margin-top: 170px;
+    margin-top: 140px;
     display: grid;
     grid-template-columns: auto 30px 50px 280px;
     grid-template-rows: 130px 120px 110px 110px auto;
@@ -865,9 +872,16 @@ html, body {
   }
   #showcase-3 .s3-grid-medium-text {
     margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    font-size: 1.375rem;
+    font-weight: 700;
   }
   #showcase-3 .s3-grid-small-text {
     margin-top: 30px;
+  }
+  #showcase-3 .s3-grid-numbers {
+    font-size: 3rem;
   }
   #showcase-3 #box1-s3 {
     display: block;
@@ -1104,7 +1118,7 @@ html, body {
     display: block;
     position: absolute;
     height: 350px;
-    bottom: 20vh;
+    bottom: 2vh;
     z-index: -99;
   }
 }
@@ -1132,11 +1146,14 @@ html, body {
   }
   #showcase-4 #map {
     width: 100%;
-    top: 250px;
+    bottom: 0;
   }
   #showcase-4 #box-s4-text p {
     text-align: left;
     width: auto;
+  }
+  #showcase-4 #button-s4:hover {
+    transform: scale(1.03);
   }
 }
 
@@ -1154,7 +1171,7 @@ html, body {
   }
   #showcase-4 #map {
     transform: scale(1.2);
-    top: 280px;
+    top: 300px;
   }
   #showcase-4 #box-s4-text p {
     text-align: left;

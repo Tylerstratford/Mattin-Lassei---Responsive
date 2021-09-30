@@ -31,7 +31,7 @@
 
             p {
                 display: block;
-                @include mobile-bread;
+                @include bread;
                 margin-top: 0;
                 text-align: center;
             }
@@ -76,8 +76,7 @@
 
         p {
             display: block;
-            font-family: $font-bread;
-            color: $font-light;
+            @include bread;
             width: 80%;
         }
 
@@ -106,7 +105,6 @@
         }
         
         #questions-s4 {
-            // position: relative;
             background-color: white;
             display: block;
             width: 630px;
@@ -138,7 +136,7 @@
             display: block;
             position: absolute;
             height: 350px;
-            bottom: 20vh;
+            bottom: 2vh;
             z-index: -99;
         }
     }
@@ -169,7 +167,7 @@
         }
         #map {
             width: 100%;
-            top: 250px;
+            bottom: 0;
         }
 
         #box-s4-text {
@@ -178,9 +176,10 @@
                 width: auto;
             }
         }
+        #button-s4:hover {
+            transform: scale(1.03);
+        }
     }
-
-
 }
 
 @include xl {
@@ -201,7 +200,7 @@
 
         #map {
             transform: scale(1.2);
-            top: 280px;
+            top: 300px;
         }
 
         #box-s4-text {

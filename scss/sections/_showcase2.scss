@@ -86,8 +86,7 @@
 
         p {
             display: block;
-            font-family: $font-bread;
-            color: $font-light;
+            @include bread;
             margin-bottom: 0;
         }
 
@@ -114,13 +113,15 @@
             display: block;
             width: 140px;
             height: 50px;
+            transition: all 0.3s ease;
         }
     }
 }
 
 @include lg {
     #showcase-2 {
-        margin-top: 20px;
+        height: 70vh;
+        margin-top: 80px;
         grid-template-columns: auto 220px 220px;
         grid-template-rows: auto auto;
         justify-content: space-between;
@@ -164,6 +165,9 @@
             text-align: center;
             cursor: pointer;
         }
+    }
+    #view-all-nonmobile:hover {
+        transform: scale(1.03);
     }
 }
 
