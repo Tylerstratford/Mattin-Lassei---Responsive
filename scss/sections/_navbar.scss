@@ -78,10 +78,20 @@
 
         ul li {
             margin-left: 20px;
+            transition: all .3s ease;
         }
 
         a {
             @include navbar-text;
+            transition: all .3s ease;
+        }
+        ul {
+            & li:hover {
+                transform: scale(1.1);
+                    a  {
+                        color: $orange;
+                }   
+            }
         }
     }
 
@@ -157,5 +167,6 @@
      #button-top {
          margin-left: 30px;
      }
+
  }
 

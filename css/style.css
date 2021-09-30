@@ -187,12 +187,20 @@ html, body {
   }
   #navbar ul li {
     margin-left: 20px;
+    transition: all .3s ease;
   }
   #navbar a {
     font-family: "Roboto", sans-serif;
     color: #252525;
     font-size: 0.944rem;
     font-weight: 500;
+    transition: all .3s ease;
+  }
+  #navbar ul li:hover {
+    transform: scale(1.1);
+  }
+  #navbar ul li:hover a {
+    color: #FFA62E;
   }
   #bars {
     display: none;
@@ -1413,6 +1421,6 @@ h2 {
   #back-to-top i {
     font-size: 2.777rem;
     color: #FFA62E;
-    opacity: .5;
+    opacity: .8;
   }
 }
