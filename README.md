@@ -11,4 +11,4 @@ Features:
 Issues:
 iPhone landscape not working as intended
 iPad background has white space on right side sometimes
- 
+
