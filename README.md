@@ -1,3 +1,3 @@
-# Mattin-Lassei---Responsive
+# Mattin-Lassei-Responsive
 
 One page application
