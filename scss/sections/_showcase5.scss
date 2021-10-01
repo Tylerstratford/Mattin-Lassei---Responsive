@@ -5,7 +5,7 @@
 
 #header-s5 {
     text-align: center;
-    h1 {
+    h2 {
         @include mobile-header;
     }
     p {
@@ -18,7 +18,7 @@
     @include bread;
 }
 
-h2 {
+h3 {
     font-family: $font-primary;
     color: $font-dark;
     font-size: 1.222rem;
@@ -43,7 +43,7 @@ h2 {
 .content-box {
     padding-left: 20px;
     padding-bottom: 10px;
-    h2 {
+    h3 {
         line-height: 1.2;
         margin-bottom: 0;
     }
@@ -65,7 +65,7 @@ h2 {
 
     #header-s5 {
         text-align: left;
-        h1 {
+        h2 {
             @include tablet-header;
             width: 90%;
         }
@@ -113,7 +113,7 @@ h2 {
 
     #header-s5 {
         text-align: center;
-        h1 {
+        h2 {
             width: 60%;
             margin-left: auto;
             margin-right: auto;

@@ -7,7 +7,7 @@
     row-gap: 15px;
     justify-content: space-between;
 
-    h1 {
+    h2 {
         @include mobile-header;
         text-align: left;
         padding-right: 5px;
@@ -16,7 +16,7 @@
         display: none;
     }
 
-    h2 {
+    h3 {
         @include mobile-sub-header;
     }
 }
@@ -72,14 +72,14 @@
             }
         }
 
-        h1 {
+        h2 {
             @include tablet-header;
             line-height: 1.2;
             margin-bottom: 0;
             width: 90%;
         }
 
-        h2 {
+        h3 {
             font-size: 1.1rem;
             margin-top: 23px;
             margin-bottom: 28px;
@@ -133,13 +133,13 @@
                 width: auto;
             }
         }
-        h1 {
+        h2 {
             font-size: 3rem;
             width: auto;
             margin-top: 0;
         }
 
-        h2 {
+        h3 {
             font-size: 1.222rem;
         }
         p {
@@ -180,7 +180,7 @@
         row-gap: 100px;
         height: auto;
 
-        h1 {
+        h2 {
             font-size: 3rem;
             width: auto;
             margin-top: 0;

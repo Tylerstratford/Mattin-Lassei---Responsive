@@ -2,7 +2,7 @@
     height: 812px;
     margin-top: 40px;
 
-        h1 {
+        h2 {
             @include mobile-header;
             text-align: center;
             padding-left: 10px;
@@ -69,7 +69,7 @@
         height: auto;
         position: relative;
         margin-top: 60px;
-        h1 {
+        h2 {
             @include tablet-header;
             text-align: left;
         }
@@ -145,7 +145,7 @@
 @include lg {
     #showcase-4 {
         margin-top: 150px;
-        h1 {
+        h2 {
             text-align: center;
             width: 80%;
             margin-left: auto;
@@ -183,7 +183,7 @@
 
 @include xl {
     #showcase-4 {
-        h1 {
+        h2 {
             width: 70%;
         }
 
