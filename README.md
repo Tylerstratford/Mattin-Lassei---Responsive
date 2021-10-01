@@ -2,13 +2,13 @@
 
 One page application
 
-Features:
+Features:  
 *Responsive design  
 *Dropdown mobile  
 *Working links  
 *Scroll up button (iPad & desktop)  
 
 Issues:  
-iPhone landscape not working as intended  
-iPad background has white space on right side sometimes  
+*iPhone landscape not working as intended  
+*iPad background has white space on right side sometimes  
 
